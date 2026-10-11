@@ -1,5 +1,10 @@
+html{
+    scroll-behavior:smooth;
+}
+
 body{
     background-color:white;
+}
 header{
     display:flex;
     background-color: rgb(179, 179, 179);
@@ -15,7 +20,7 @@ header{
 }
 
 .home{
-    margin-left: 20%;
+    margin-left: 16%;
     margin-top: 20px;
 }
 
@@ -37,7 +42,7 @@ header{
     border-radius: 100px;
     border-width: 3px;
     border-radius: 30px;
-    border-style: solid;   
+    border-style: double;   
 }
 
 .rentals{
@@ -46,6 +51,7 @@ header{
 
 .rent{
     text-align: center;
+    color: lightslategray;
 }
 
 .first_img{
@@ -53,11 +59,12 @@ header{
 }
 
 .choose{
-    margin-left: 12%;
+    margin-left: 8%;
 }
 
 .flexible{
-    margin-left: 30%;
+    margin-left: 27%;
+    color: lightslategray;
 }
 
 .box_1{
@@ -76,7 +83,7 @@ header{
 }
 
 .star{
-    margin-left: 50%;
+    margin-left: 40%;
 }
 
 .p{
@@ -84,11 +91,12 @@ header{
 }
 
 .rs{
-    margin-left: 50%;
+    display:inline-flex;
+    margin-left: 30%;
     background-color: blue;
     padding: 4px;
     color: white;
-    margin-right: 70px;
+    /* margin-right: 40px; */
     border-radius: 5px;
 }
 
@@ -116,4 +124,93 @@ header{
 
 .mt{
     margin-left: 40%;
+}
+
+.secound_img{
+    margin-left: 46%;
+}
+
+.why{
+    margin-left: 4%;
+}
+
+.img_1{
+    margin-top: 7%;
+    margin-left: 17%;
+    
+}
+
+.img_2{
+    margin-top: 7%;
+    margin-left: 18%;
+}
+
+.img_3{
+    margin-top: 7%;
+    margin-left: 18%;
+}
+
+.affordable{
+    display: inline-flex;
+    margin-left: 16.5%;
+}
+
+.guaranteed{
+    display: inline-flex;
+    margin-left: 15.5%;
+    color: lightslategray;
+}
+
+.choose_a{
+    display: inline-flex;
+    margin-left: 8.5%;
+    color: lightslategray;
+}
+
+.our{
+    display: inline-flex;
+    margin-left: 5%;
+    color: lightslategray;
+}
+
+.wide{
+    margin-left: 17%;
+    display: inline-flex;
+}
+
+.verified{
+    display: inline-flex;
+    margin-left: 20.5%;
+}
+
+.moneyback{
+    display: inline-flex;
+    margin-left: 16%;
+}
+
+.vehicles{
+    display: inline-flex;
+    margin-left: 9%;
+    color: lightslategray;
+}
+
+.every{
+    display: inline-flex;
+    margin-left: 2%;
+    color: lightslategray;
+}
+
+.not{
+    display: inline-flex;
+    margin-left: 2%;
+    color: lightslategray;
+}
+
+.third_img{
+    margin-left: 46%;
+}
+
+.key{
+    display: inline-flex;
+    margin-left: 10%;
 }
