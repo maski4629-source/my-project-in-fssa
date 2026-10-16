@@ -1,73 +1,90 @@
-html{
-    scroll-behavior:smooth;
+img {
+    transition: all 0.3s;
 }
 
-body{
-    background-color:white;
+img:hover {
+    transform: scale(1.05)
 }
-header{
-    display:flex;
+body {
+    background-color: whitesmoke;
+}
+
+h3 {
+    color: rgb(0, 166, 249);
+}
+
+div {
+    background-color: white;
+}
+
+header {
+    display: flex;
     background-color: rgb(179, 179, 179);
     border-width: 3px;
-    border-style:double;
+    border-style: double;
     border-radius: 5px;
-
 }
 
-.born_to_ride{
+.born_to_ride {
     margin-left: 37%;
     margin-top: 30px;
+    transition: all 0.3s;
 }
 
-.home{
+.born_to_ride:hover {
+    transform: scale(1.05)
+}
+
+.home {
     margin-left: 16%;
     margin-top: 20px;
 }
 
-.about{
+.about {
     margin-top: 20px;
     margin-left: 10px;
 }
 
-.contact{
+.contact {
     margin-top: 20px;
     margin-left: 10px;
 }
 
-.logo{
+.logo {
     margin-top: 4%;
-    height:auto;
+    height: auto;
     width: 500px;
     margin-left: 31%;
     border-radius: 100px;
     border-width: 3px;
     border-radius: 30px;
-    border-style: double;   
+    border-style: double;
+    box-shadow: 5px 5px 5px 5px black;
 }
 
-.rentals{
+.rentals {
     text-align: center;
 }
 
-.rent{
+.rent {
     text-align: center;
     color: lightslategray;
 }
 
-.first_img{
+.first_img {
     margin-left: 46%;
 }
 
-.choose{
-    margin-left: 8%;
+.choose {
+    margin-left: 7.5%;
 }
 
-.flexible{
+.flexible {
     margin-left: 27%;
     color: lightslategray;
 }
 
-.box_1{
+.box_1 {
     margin-top: 6%;
     margin-left: 5%;
     display: inline-block;
@@ -78,139 +95,194 @@ header{
     border-radius: 10px;
 }
 
-.r15{
+.r15 {
     margin-left: 30%;
 }
 
-.star{
+.star {
     margin-left: 40%;
 }
 
-.p{
+.p {
     margin-left: 10%;
 }
 
-.rs{
-    display:inline-flex;
+.rs {
+    display: inline-flex;
     margin-left: 30%;
     background-color: blue;
     padding: 4px;
     color: white;
-    /* margin-right: 40px; */
+    box-shadow: 2px 2px 2px 2px black;
     border-radius: 5px;
 }
 
-.box_2{
+.box_2 {
     margin-top: 6%;
     margin-left: 5%;
     display: inline-block;
     border-color: black;
-    background-color:wheat;
+    background-color: wheat;
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
 }
 
-.box_3{
+.sports {
+    margin-left: 20%;
+}
+
+.box_3 {
     margin-top: 6%;
     margin-left: 5%;
     display: inline-block;
     border-color: black;
-    background-color:wheat;
+    background-color: wheat;
     border-width: 3px;
     border-style: solid;
     border-radius: 10px;
 }
 
-.mt{
+.mt {
     margin-left: 40%;
 }
 
-.secound_img{
+.secound_img {
     margin-left: 46%;
 }
 
-.why{
-    margin-left: 4%;
+.why {
+    margin-left: 5.5%;
 }
 
-.img_1{
+.img_1 {
     margin-top: 7%;
     margin-left: 17%;
-    
 }
 
-.img_2{
+.img_2 {
     margin-top: 7%;
     margin-left: 18%;
 }
 
-.img_3{
+.img_3 {
     margin-top: 7%;
     margin-left: 18%;
 }
 
-.affordable{
+.affordable {
     display: inline-flex;
     margin-left: 16.5%;
 }
 
-.guaranteed{
+.guaranteed {
     display: inline-flex;
     margin-left: 15.5%;
     color: lightslategray;
 }
 
-.choose_a{
+.choose_a {
     display: inline-flex;
     margin-left: 8.5%;
     color: lightslategray;
 }
 
-.our{
+.our {
     display: inline-flex;
     margin-left: 5%;
     color: lightslategray;
 }
 
-.wide{
+.wide {
     margin-left: 17%;
     display: inline-flex;
 }
 
-.verified{
+.verified {
     display: inline-flex;
     margin-left: 20.5%;
 }
 
-.moneyback{
+.moneyback {
     display: inline-flex;
     margin-left: 16%;
 }
 
-.vehicles{
+.vehicles {
     display: inline-flex;
     margin-left: 9%;
     color: lightslategray;
 }
 
-.every{
+.every {
     display: inline-flex;
     margin-left: 2%;
     color: lightslategray;
 }
 
-.not{
+.not {
     display: inline-flex;
     margin-left: 2%;
     color: lightslategray;
 }
 
-.third_img{
+.third_img {
     margin-left: 46%;
 }
 
-.key{
+.how_it_works {
+    margin-left: 4.5%;
+}
+
+.key_1 {
     display: inline-flex;
-    margin-left: 10%;
+    margin-left: 5%;
+}
+
+.doat {
+    display: inline-flex;
+}
+
+.third_font {
+    display: inline-flex;
+    margin-left: 3%;
+}
+
+.add {
+    display: inline-flex;
+    margin-left: 15.5%;
+}
+
+.ride_anywhere {
+    display: inline-flex;
+    margin-left: 16%;
+}
+
+.you_can_search {
+    display: inline-flex;
+    width: 23%;
+}
+
+.easily {
+    display: inline-flex;
+    margin-left: 3%;
+    width: 20%;
+}
+
+.find_the_pickup {
+    display: inline-flex;
+    margin-left: 5%;
+}
+
+.we_do_not {
+    display: inline-flex;
+    margin-left: 8%;
+}
+
+.forth_img {
+    margin-left: 46%;
+}
+
+.motorcycle_tours {
+    margin-left: 3%;
 }
