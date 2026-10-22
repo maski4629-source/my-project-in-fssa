@@ -296,3 +296,18 @@ header {
     display: inline-flex;
     margin-left: 70px;
 }
+
+.fifth_img{
+    margin-left: 46%;
+}
+
+.select_got{
+    width: 70%;
+    margin-left: 15%;
+    padding:10px;
+    border-color: black;
+    background-color: wheat;
+    border-width: 2px;
+    border-style: double;
+    border-radius: 7px;
+}
