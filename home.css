@@ -26,7 +26,7 @@ header {
 }
 
 .born_to_ride {
-    margin-left: 37%;
+    margin-left: 36%;
     margin-top: 30px;
     transition: all 0.3s;
 }
@@ -115,6 +115,11 @@ header {
     color: white;
     box-shadow: 2px 2px 2px 2px black;
     border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.rs:hover{
+    transform: scale(1.20)
 }
 
 .box_2 {
@@ -285,4 +290,9 @@ header {
 
 .motorcycle_tours {
     margin-left: 3%;
+}
+
+.img_div{
+    display: inline-flex;
+    margin-left: 70px;
 }
