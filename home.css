@@ -311,3 +311,22 @@ header {
     border-style: double;
     border-radius: 7px;
 }
+
+.br_line{
+    margin-bottom: 10%;
+}
+
+.sixth_img{
+    margin-left: 46%;
+}
+
+.rent_products_in{
+    margin-left: 6.5%;
+}
+
+.ahamadabad{
+    border-radius: 50%;
+    width: 125px;
+    padding: 20px;
+    margin-left: 3.5%;
+}
