@@ -1,14 +1,20 @@
-.About_us{
+.About_us {
     display: inline-flex;
-    font-family: bold,arial;
+    font-family: bold, arial;
 }
 
-.only_those_who{
+.only_those_who {
     margin-left: 20%;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.image_class{
-    display: inline-flex;
-    padding: 20 0;
+.ride_jpg{
+    display: flex;
+    justify-content:center;
+}
+
+.about_class{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -5,8 +5,11 @@ img {
 img:hover {
     transform: scale(1.05)
 }
+
 body {
     background-color: whitesmoke;
+    overflow-x: hidden;
+    background-image: url("img_files/paper.gif");
 }
 
 h3 {
@@ -50,6 +53,21 @@ header {
     margin-left: 10px;
 }
 
+.bg_class {
+    background: url('/background_video_files/relaxbikes.mp4');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+}
+
+#myVideo {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
 .logo {
     margin-top: 4%;
     height: auto;
@@ -64,11 +82,13 @@ header {
 
 .rentals {
     text-align: center;
+    color: white;
 }
 
 .rent {
     text-align: center;
-    color: lightslategray;
+    color:wheat;
+    font-size: medium;
 }
 
 .first_img {
@@ -116,9 +136,10 @@ header {
     box-shadow: 2px 2px 2px 2px black;
     border-radius: 5px;
     transition: all 0.2s;
+    cursor: pointer;
 }
 
-.rs:hover{
+.rs:hover {
     transform: scale(1.20)
 }
 
@@ -292,19 +313,19 @@ header {
     margin-left: 3%;
 }
 
-.img_div{
+.img_div {
     display: inline-flex;
     margin-left: 70px;
 }
 
-.fifth_img{
+.fifth_img {
     margin-left: 46%;
 }
 
-.select_got{
+.select_got {
     width: 70%;
     margin-left: 15%;
-    padding:10px;
+    padding: 10px;
     border-color: black;
     background-color: wheat;
     border-width: 2px;
@@ -312,21 +333,77 @@ header {
     border-radius: 7px;
 }
 
-.br_line{
+.br_line {
     margin-bottom: 10%;
 }
 
-.sixth_img{
+.sixth_img {
     margin-left: 46%;
 }
 
-.rent_products_in{
+.rent_products_in {
     margin-left: 6.5%;
 }
 
-.ahamadabad{
+.ahamadabad {
     border-radius: 50%;
     width: 125px;
-    padding: 20px;
-    margin-left: 3.5%;
+    padding: 5px;
+    margin-left: 5.5%;
+}
+
+.name_class {
+    display: inline-flex;
+}
+
+.Ahmedabad_class {
+    margin-left: 17.5%;
+}
+
+.Bangalore_class {
+    margin-left: 25%;
+}
+
+.indore_class {
+    margin-left: 30%;
+}
+
+.Chandigarh_class {
+    margin-left: 29%;
+}
+
+.Chennai_class {
+    margin-left: 26%;
+}
+
+.coimbatore_class {
+    margin-left: 28%;
+}
+
+.jaipur_class {
+    margin-left: 33%;
+}
+
+.guwahati_class {
+    margin-left: 48%;
+}
+
+.mumbai_class {
+    margin-left: 43%;
+}
+
+.pune_class {
+    margin-left: 52%;
+}
+
+.kolkata_class {
+    margin-left: 52%;
+}
+
+.goa_class {
+    margin-left: 53%;
+}
+
+.name_class-2 {
+    display: inline-flex;
 }
