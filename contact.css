@@ -1,43 +1,56 @@
-.contact_us_class{
-    font-family: bold,arial;
+.contact_us_class {
+    font-family: bold, arial;
     margin-bottom: 10%;
 }
 
-.main_class{
+.main_class {
     display: inline-flex;
     background-image: url(contact_image_files/Contact\ Us.png);
-    
 
-.location{
+}
+
+.location {
     margin-left: 40%;
 }
 
-.msg{
+.msg {
     margin-left: 23%;
 }
 
-.call{
+.call {
     margin-left: 250px;
 }
 
-.location_class{
+.location_class {
     margin-left: 24%;
     margin-right: 16%;
 }
 
-.msg_class{
+.msg_class {
     margin-left: 50%;
 }
 
-.number_1_class{
+.number_1_class {
     margin-left: 275px;
     color: red;
 }
 
-.Calling_class{
+.Calling_class {
     margin-left: 72%;
 }
 
-.time_class{
+.time_class {
     margin-left: 63%;
+}
+
+.customer_care_class {
+    display: flex;
+    justify-content: center;
+    background: transparent;
+}
+
+.contact_class{
+    display: flex;
+    justify-content: center;
+    background: transparent;
 }
