@@ -12,6 +12,11 @@ body {
     background-image: url("img_files/paper.gif");
 }
 
+h2{
+    color:rgb(130, 82, 242);
+    font-size: xx-large;
+}
+
 h3 {
     color: rgb(0, 166, 249);
 }
@@ -87,7 +92,7 @@ header {
 
 .rent {
     text-align: center;
-    color:wheat;
+    color: wheat;
     font-size: medium;
 }
 
@@ -96,11 +101,11 @@ header {
 }
 
 .choose {
-    margin-left: 7.5%;
+    text-align: center;
 }
 
 .flexible {
-    margin-left: 27%;
+    text-align:center;
     color: lightslategray;
 }
 
@@ -178,7 +183,7 @@ header {
 }
 
 .why {
-    margin-left: 5.5%;
+    text-align: center;
 }
 
 .img_1 {
@@ -257,7 +262,7 @@ header {
 }
 
 .how_it_works {
-    margin-left: 4.5%;
+    text-align: center;
 }
 
 .key_1 {
@@ -310,7 +315,7 @@ header {
 }
 
 .motorcycle_tours {
-    margin-left: 3%;
+text-align: center;
 }
 
 .img_div {
