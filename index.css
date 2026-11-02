@@ -6,15 +6,22 @@ img:hover {
     transform: scale(1.05)
 }
 
+header{
+    position: fixed;
+    z-index: +1;
+    /* position:static; */
+}
+
 body {
     background-color: whitesmoke;
     overflow-x: hidden;
     background-image: url("img_files/paper.gif");
 }
 
-h2{
-    color:rgb(130, 82, 242);
+h2 {
+    color: rgb(130, 82, 242);
     font-size: xx-large;
+    /* text-shadow: 2px 2px 2px  rgb(130, 166, 249); */
 }
 
 h3 {
@@ -44,16 +51,19 @@ header {
 }
 
 .home {
+    text-decoration: none;
     margin-left: 16%;
     margin-top: 20px;
 }
 
 .about {
+    text-decoration: none;
     margin-top: 20px;
     margin-left: 10px;
 }
 
 .contact {
+    text-decoration:none;
     margin-top: 20px;
     margin-left: 10px;
 }
@@ -96,16 +106,12 @@ header {
     font-size: medium;
 }
 
-.first_img {
-    margin-left: 46%;
-}
-
 .choose {
     text-align: center;
 }
 
 .flexible {
-    text-align:center;
+    text-align: center;
     color: lightslategray;
 }
 
@@ -129,7 +135,7 @@ header {
 }
 
 .p {
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 .rs {
@@ -178,12 +184,9 @@ header {
     margin-left: 40%;
 }
 
-.secound_img {
-    margin-left: 46%;
-}
-
 .why {
     text-align: center;
+    color: red;
 }
 
 .img_1 {
@@ -203,95 +206,106 @@ header {
 
 .affordable {
     display: inline-flex;
-    margin-left: 16.5%;
+    margin-left: 18.5%;
+}
+
+.Secure {
+    display: inline-flex;
+    margin-left: 20%;
 }
 
 .guaranteed {
     display: inline-flex;
-    margin-left: 15.5%;
+    margin-left: 17.5%;
     color: lightslategray;
 }
 
 .choose_a {
     display: inline-flex;
-    margin-left: 8.5%;
+    margin-left: 12.5%;
     color: lightslategray;
 }
 
 .our {
     display: inline-flex;
-    margin-left: 5%;
+    margin-left: 10%;
     color: lightslategray;
 }
 
 .wide {
-    margin-left: 17%;
+    margin-left: 18%;
     display: inline-flex;
 }
 
 .verified {
     display: inline-flex;
-    margin-left: 20.5%;
+    margin-left: 22%;
 }
 
-.moneyback {
-    display: inline-flex;
-    margin-left: 16%;
-}
-
-.vehicles {
-    display: inline-flex;
-    margin-left: 9%;
-    color: lightslategray;
-}
-
-.every {
-    display: inline-flex;
-    margin-left: 2%;
-    color: lightslategray;
-}
-
-.not {
-    display: inline-flex;
-    margin-left: 2%;
-    color: lightslategray;
-}
-
-.third_img {
-    margin-left: 46%;
-}
-
-.how_it_works {
-    text-align: center;
-}
-
-.key_1 {
-    display: inline-flex;
-    margin-left: 5%;
-}
-
-.doat {
-    display: inline-flex;
-}
-
-.third_font {
-    display: inline-flex;
-    margin-left: 3%;
-}
-
-.add {
+.pick_1 {
     display: inline-flex;
     margin-left: 15.5%;
 }
 
 .ride_anywhere {
     display: inline-flex;
-    margin-left: 16%;
+}
+
+.vehicles {
+    display: inline-flex;
+    margin-left: 11%;
+    color: lightslategray;
+}
+
+.every {
+    display: inline-flex;
+    margin-left: 9%;
+    color: lightslategray;
+}
+
+.not {
+    display: inline-flex;
+    margin-left: 8%;
+    color: lightslategray;
+}
+
+.how_it_works {
+    text-align: center;
+}
+
+.doat {
+    display: inline-flex;
+}
+
+.key_1 {
+    display: inline-flex;
+    margin-left: 12%;
+}
+
+.third_font {
+    display: inline-flex;
+    margin-left: 11%;
+}
+
+.add {
+    display: inline-flex;
+    margin-left: 14.5%;
+}
+
+.moneyback {
+    display: inline-flex;
+    margin-left: 19.5%;
+}
+
+.ride_anywhere {
+    display: inline-flex;
+    margin-left: 14%;
 }
 
 .you_can_search {
     display: inline-flex;
     width: 23%;
+    margin-left: 5%;
 }
 
 .easily {
@@ -302,7 +316,7 @@ header {
 
 .find_the_pickup {
     display: inline-flex;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .we_do_not {
@@ -310,27 +324,29 @@ header {
     margin-left: 8%;
 }
 
-.forth_img {
-    margin-left: 46%;
-}
-
 .motorcycle_tours {
-text-align: center;
+    text-align: center;
 }
 
 .img_div {
-    display: inline-flex;
-    margin-left: 70px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.fifth_img {
-    margin-left: 46%;
+.img-text {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.got_questions {
+    text-align: center;
 }
 
 .select_got {
-    width: 70%;
-    margin-left: 15%;
-    padding: 10px;
+    font-size: 16px;
+    position:sticky;
+    width: 100%;
+    padding: 10px; 
     border-color: black;
     background-color: wheat;
     border-width: 2px;
@@ -342,12 +358,8 @@ text-align: center;
     margin-bottom: 10%;
 }
 
-.sixth_img {
-    margin-left: 46%;
-}
-
 .rent_products_in {
-    margin-left: 6.5%;
+    text-align: center;
 }
 
 .ahamadabad {
@@ -362,53 +374,60 @@ text-align: center;
 }
 
 .Ahmedabad_class {
-    margin-left: 17.5%;
+    margin-left: 27%;
 }
 
 .Bangalore_class {
-    margin-left: 25%;
+    margin-left: 40%;
 }
 
 .indore_class {
-    margin-left: 30%;
+    margin-left: 42.5%;
 }
 
 .Chandigarh_class {
-    margin-left: 29%;
+    margin-left: 42%;
 }
 
 .Chennai_class {
-    margin-left: 26%;
+    margin-left: 40%;
 }
 
 .coimbatore_class {
-    margin-left: 28%;
+    margin-left: 42%;
 }
 
 .jaipur_class {
-    margin-left: 33%;
+    margin-left: 45%;
 }
 
 .guwahati_class {
-    margin-left: 48%;
+    margin-left: 65%;
 }
 
 .mumbai_class {
-    margin-left: 43%;
+    margin-left: 60%;
 }
 
 .pune_class {
-    margin-left: 52%;
+    margin-left: 68%;
 }
 
 .kolkata_class {
-    margin-left: 52%;
+    margin-left: 66.5%;
 }
 
 .goa_class {
-    margin-left: 53%;
+    margin-left: 69%;
 }
 
 .name_class-2 {
     display: inline-flex;
+}
+
+.fooder{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10%; */
+    font-size: 20px;
 }

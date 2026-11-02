@@ -3,18 +3,25 @@
     font-family: bold, arial;
 }
 
+li {
+    font-family:unset;
+    font-size: 17.5px;
+    font-weight: 550;
+}
+
 .only_those_who {
     margin-left: 20%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.ride_jpg{
+.ride_jpg {
     display: flex;
-    justify-content:center;
+    justify-content: center;
+    background: transparent;
 }
 
-.about_class{
-    display:flex;
+.about_class {
+    display: flex;
     justify-content: center;
-    align-items: center;
+    background: transparent;
 }
