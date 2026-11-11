@@ -1,3 +1,17 @@
+header {
+    position: fixed;
+    z-index: +1;
+    position: static;
+}
+
+body {
+    background-color: wheat;
+    overflow-x: hidden;
+    /* background-image: url("img_files/paper.gif"); */
+    /* position: relative;
+    position: absolute; */
+}
+
 img {
     transition: all 0.3s;
 }
@@ -6,21 +20,10 @@ img:hover {
     transform: scale(1.05)
 }
 
-header{
-    position: fixed;
-    z-index: +1;
-    /* position:static; */
-}
-
-body {
-    background-color: whitesmoke;
-    overflow-x: hidden;
-    background-image: url("img_files/paper.gif");
-}
-
 h2 {
     color: rgb(130, 82, 242);
     font-size: xx-large;
+    font-weight: 1500;
     /* text-shadow: 2px 2px 2px  rgb(130, 166, 249); */
 }
 
@@ -33,39 +36,52 @@ div {
 }
 
 header {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     display: flex;
     background-color: rgb(179, 179, 179);
     border-width: 3px;
     border-style: double;
     border-radius: 5px;
+    justify-content: space-between;
+}
+
+nav{
+    display: inline-flex;
 }
 
 .born_to_ride {
-    margin-left: 36%;
-    margin-top: 30px;
+    margin-left: 13%;
     transition: all 0.3s;
+    font-family:  "Black Ops One", system-ui;
+    /* font-weight: 1000; */
 }
 
 .born_to_ride:hover {
     transform: scale(1.05)
 }
 
+.born_to_ride:active{
+    color: rebeccapurple;
+}
+
 .home {
     text-decoration: none;
-    margin-left: 16%;
-    margin-top: 20px;
+    /* margin-left: 16%;
+    margin-top: 20px; */
 }
 
 .about {
     text-decoration: none;
-    margin-top: 20px;
-    margin-left: 10px;
+    /* margin-top: 20px;
+    margin-left: 10px; */
 }
 
 .contact {
-    text-decoration:none;
-    margin-top: 20px;
-    margin-left: 10px;
+    text-decoration: none;
+    /* margin-top: 20px;
+    margin-left: 10px; */
 }
 
 .bg_class {
@@ -186,7 +202,6 @@ header {
 
 .why {
     text-align: center;
-    color: red;
 }
 
 .img_1 {
@@ -344,9 +359,9 @@ header {
 
 .select_got {
     font-size: 16px;
-    position:sticky;
+    position: sticky;
     width: 100%;
-    padding: 10px; 
+    padding: 10px;
     border-color: black;
     background-color: wheat;
     border-width: 2px;
@@ -425,7 +440,7 @@ header {
     display: inline-flex;
 }
 
-.fooder{
+.fooder {
     display: flex;
     justify-content: space-between;
     /* padding: 10%; */
