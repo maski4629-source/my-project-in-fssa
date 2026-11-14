@@ -5,11 +5,19 @@ header {
 }
 
 body {
-    background-color: wheat;
+    /* background-color: wheat; */
     overflow-x: hidden;
+    touch-action:manipulation;
+    background:linear-gradient(180deg,blueviolet,blue,cornflowerblue,green,greenyellow,red,orange,yellow);
     /* background-image: url("img_files/paper.gif"); */
     /* position: relative;
     position: absolute; */
+    /* justify-content: ; */
+}
+
+p{
+    font-size: 15px;
+    color:lite greenyellow
 }
 
 img {
@@ -24,11 +32,13 @@ h2 {
     color: rgb(130, 82, 242);
     font-size: xx-large;
     font-weight: 1500;
+    font-family: "Pacifico", cursive;
     /* text-shadow: 2px 2px 2px  rgb(130, 166, 249); */
 }
 
 h3 {
     color: rgb(0, 166, 249);
+    font-size:x-large
 }
 
 div {
@@ -47,41 +57,39 @@ header {
     justify-content: space-between;
 }
 
-nav{
+nav {
     display: inline-flex;
 }
 
 .born_to_ride {
-    margin-left: 13%;
+    margin-left: 20%;
     transition: all 0.3s;
-    font-family:  "Black Ops One", system-ui;
-    /* font-weight: 1000; */
+    font-family: "Isometra", serif;
+    font-weight: 400;
 }
 
 .born_to_ride:hover {
     transform: scale(1.05)
 }
 
-.born_to_ride:active{
+.born_to_ride:active {
     color: rebeccapurple;
 }
 
 .home {
     text-decoration: none;
-    /* margin-left: 16%;
-    margin-top: 20px; */
+    /* margin-left: 16%; */
 }
 
 .about {
     text-decoration: none;
-    /* margin-top: 20px;
-    margin-left: 10px; */
+    /* margin-left: 10px; */
 }
 
 .contact {
     text-decoration: none;
-    /* margin-top: 20px;
-    margin-left: 10px; */
+    margin-right: 50px;
+    /* margin-left: 10px; */
 }
 
 .bg_class {
@@ -119,7 +127,7 @@ nav{
 .rent {
     text-align: center;
     color: wheat;
-    font-size: medium;
+    /* font-size: medium; */
 }
 
 .choose {
@@ -221,66 +229,67 @@ nav{
 
 .affordable {
     display: inline-flex;
-    margin-left: 18.5%;
+    margin-left: 16.5%;
+}
+
+.Multiple{
+    display: inline-flex;
+    margin-left: 17.2%;
 }
 
 .Secure {
     display: inline-flex;
-    margin-left: 20%;
+    margin-left:18%;
 }
 
 .guaranteed {
     display: inline-flex;
-    margin-left: 17.5%;
+    margin-left: 16.5%;
     color: lightslategray;
 }
 
 .choose_a {
     display: inline-flex;
-    margin-left: 12.5%;
+    margin-left:8.5%;
     color: lightslategray;
 }
 
 .our {
     display: inline-flex;
-    margin-left: 10%;
+    margin-left: 7%;
     color: lightslategray;
 }
 
 .wide {
-    margin-left: 18%;
+    margin-left: 17.5%;
     display: inline-flex;
 }
 
 .verified {
     display: inline-flex;
-    margin-left: 22%;
+    margin-left: 20%;
 }
 
-.pick_1 {
+.moneyback {
     display: inline-flex;
-    margin-left: 15.5%;
-}
-
-.ride_anywhere {
-    display: inline-flex;
+    margin-left: 16.8%;
 }
 
 .vehicles {
     display: inline-flex;
-    margin-left: 11%;
+    margin-left: 8.5%;
     color: lightslategray;
 }
 
 .every {
     display: inline-flex;
-    margin-left: 9%;
+    margin-left: 4%;
     color: lightslategray;
 }
 
 .not {
     display: inline-flex;
-    margin-left: 8%;
+    margin-left: 3.5%;
     color: lightslategray;
 }
 
@@ -294,22 +303,22 @@ nav{
 
 .key_1 {
     display: inline-flex;
-    margin-left: 12%;
+    margin-left: 8%;
 }
 
 .third_font {
     display: inline-flex;
-    margin-left: 11%;
+    margin-left: 6%;
 }
 
 .add {
     display: inline-flex;
-    margin-left: 14.5%;
+    margin-left: 15%;
 }
 
-.moneyback {
+.pick_1{
+    margin-left: 16%;
     display: inline-flex;
-    margin-left: 19.5%;
 }
 
 .ride_anywhere {
@@ -380,69 +389,70 @@ nav{
 .ahamadabad {
     border-radius: 50%;
     width: 125px;
-    padding: 5px;
-    margin-left: 5.5%;
+}
+
+.Cities_class{
+    display:flex;
+    justify-content: space-around;
 }
 
 .name_class {
-    display: inline-flex;
+    display:inline-flex
+    /* justify-content: space-around; */
 }
 
 .Ahmedabad_class {
-    margin-left: 27%;
+    margin-left: 13%;
 }
 
 .Bangalore_class {
-    margin-left: 40%;
+    margin-left: 27.5%;
 }
 
 .indore_class {
-    margin-left: 42.5%;
+    margin-left: 32.5%;
 }
 
 .Chandigarh_class {
-    margin-left: 42%;
+    margin-left: 31%;
 }
 
 .Chennai_class {
-    margin-left: 40%;
+    margin-left: 29.5%;
 }
 
 .coimbatore_class {
-    margin-left: 42%;
+    margin-left: 29.5%;
 }
 
 .jaipur_class {
-    margin-left: 45%;
+    margin-left: 25%;
 }
 
 .guwahati_class {
-    margin-left: 65%;
+    margin-left: 47.5%;
 }
 
 .mumbai_class {
-    margin-left: 60%;
+    margin-left: 45%;
 }
 
 .pune_class {
-    margin-left: 68%;
+    margin-left: 52%;
 }
 
 .kolkata_class {
-    margin-left: 66.5%;
+    margin-left: 51.5%;
 }
 
 .goa_class {
-    margin-left: 69%;
+    margin-left: 52%;
 }
 
-.name_class-2 {
-    display: inline-flex;
-}
-
-.fooder {
-    display: flex;
-    justify-content: space-between;
-    /* padding: 10%; */
-    font-size: 20px;
+.ul_class li, a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px  0px 16px 0px;
 }

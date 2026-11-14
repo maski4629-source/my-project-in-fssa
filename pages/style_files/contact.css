@@ -1,3 +1,56 @@
+h2 {
+    color: rgb(130, 82, 242);
+    font-size: xx-large;
+    font-weight: 1500;
+    /* text-shadow: 2px 2px 2px  rgb(130, 166, 249); */
+}
+
+
+.born_to_ride:hover {
+    transform: scale(1.05)
+}
+
+.born_to_ride:active{
+    color: rebeccapurple;
+}
+
+nav{
+    display: inline-flex;
+}
+
+.born_to_ride {
+    margin-left:20%;
+    transition: all 0.3s;
+    font-family:  "Black Ops One", system-ui;
+}
+
+.home {
+    text-decoration: none;
+    /* margin-left: 16%; */
+}
+
+.about {
+    text-decoration: none;
+    /* margin-left: 10px; */
+}
+
+.contact {
+    text-decoration: none;
+    margin-right: 50px;
+    /* margin-left: 10px; */
+}
+
+header {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(179, 179, 179);
+    border-width: 3px;
+    border-style: double;
+    border-radius: 5px;
+    justify-content: space-between;
+}
 
 
 .main_class {
@@ -41,6 +94,7 @@
 .contact_class {
     font-family: bold, arial;
     background-color: transparent;
+    
 }
 
 .number_1_class{
@@ -52,7 +106,15 @@
     background: transparent;
 }
 
-.contact_class{
+.contact_class_1{
     text-align: center;
     background: transparent;
+}
+
+.ul_class li, a {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px  0px 16px 0px;
 }
