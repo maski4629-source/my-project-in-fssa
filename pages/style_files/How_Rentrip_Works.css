@@ -2,9 +2,9 @@ h2 {
     color: rgb(130, 82, 242);
     font-size: xx-large;
     font-weight: 1500;
+    font-family: "Pacifico", cursive;
     /* text-shadow: 2px 2px 2px  rgb(130, 166, 249); */
 }
-
 
 .born_to_ride:hover {
     transform: scale(1.05)
@@ -21,7 +21,7 @@ nav{
 .born_to_ride {
     margin-left:20%;
     transition: all 0.3s;
-    font-family:  "Black Ops One", system-ui;
+    font-family: "Isometra", serif;
 }
 
 .home {
@@ -53,6 +53,7 @@ header {
 }
 
 .ul_class li, a {
+    display: -ms-inline-;
     text-decoration: none;
     list-style-type: none;
     font-size: 16px;
