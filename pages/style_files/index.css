@@ -450,10 +450,52 @@ nav {
     margin-left: 52%;
 }
 
+footer{
+    display: flex;
+}
+
 .ul_class li, a {
+    display: flex;
     text-decoration: none;
     list-style-type: none;
     font-size: 16px;
     font-weight: 600;
-    padding: 16px  0px 16px 0px;
+    padding: 16px  0px 0px 0px;
+}
+
+.footer-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-left: 20%;
+}
+
+.footer-mail{
+    display: flex;
+    gap: 5px;
+}
+
+.footer_mail_a_tag{
+    font-size: xx-large;
+    color: black;
+}
+
+.footer_mail_a{
+    font-size: xx-large;
+}
+
+.footer-contact{
+    display: flex;
+    gap: 5px;
+}
+
+.footer_cal_p{
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.footer_img{
+    margin-left: 8%;
 }
